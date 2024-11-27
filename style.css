@@ -1,0 +1,63 @@
+/* General Styles */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%; 
+}
+
+h1 {
+    font-size: 2em; 
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.8em; 
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em; 
+    line-height: 1.6em;
+}
+
+#generateBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 28px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 1em; 
+}
+
+#generateBtn:hover {
+    background-color: #046509;
+}
+#result {
+    font-family: verdana;
+    font-size: 5em;
+}
+
+
+/* Mobile-Specific Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em; 
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em; 
+    }
+
+    #generateBtn {
+        padding: 10px 20px; 
+        font-size: 0.9em; 
+        width: 100%; 
+    }
+}
